@@ -48,7 +48,7 @@ if prompt:
         try:
             with st.spinner("AI soch raha hai..."):
                 response = client.responses.create(
-                    model="gpt-4.1-mini",
+                    model="gpt-5.4-mini",
                     instructions=(
                         "You are a helpful AI assistant. "
                         "Explain things clearly and simply."
